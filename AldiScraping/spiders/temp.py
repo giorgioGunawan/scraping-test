@@ -1,0 +1,5 @@
+file = open("data.csv", "w")
+file.close()
+file = open("data.csv", "a")
+file.write("Category, Title, Price, Price Per Unit, Packsize, Image Link\n")
+file.close()
